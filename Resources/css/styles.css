@@ -1,11 +1,13 @@
-header {
-    background-color: #ffffff;
-    height: 4rem;
-    width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
+header{
+    height: 64px;
+    max-width: 100%;
+    background-color: gainsboro;
     display: flex;
-    flex-direction: row;
-    z-index: 1000;
-  }
+    justify-content: space-between;
+}
+
+.header-left{
+    display: inline-flex;
+    align-items: center;
+    padding: 0px 0px 0px 24px;
+}

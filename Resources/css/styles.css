@@ -11,3 +11,9 @@ header{
     align-items: center;
     padding: 0px 0px 0px 24px;
 }
+
+.header-right{
+    display: inline-flex;
+    align-items: center;
+    padding: 0px 24px 0px 0px;
+}

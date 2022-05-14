@@ -1,3 +1,8 @@
+
+a{
+    text-decoration: none;
+    color:black;
+}
 header{
     height: 64px;
     max-width: 100%;
@@ -23,10 +28,13 @@ header ul{
     display: flex;
     font-family: Arial, Helvetica, sans-serif;
     
+    
 }
 
 .menu-option{
     padding: 0px 0px 0px 16px;
+    color:black;
+    
 }
 
 .logo-colmar, .logo-academy{

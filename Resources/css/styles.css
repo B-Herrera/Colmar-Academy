@@ -1,7 +1,7 @@
 header{
     height: 64px;
     max-width: 100%;
-    background-color: gainsboro;
+    background-color: rgb(209, 233, 248);
     display: flex;
     justify-content: space-between;
 }
@@ -16,4 +16,30 @@ header{
     display: inline-flex;
     align-items: center;
     padding: 0px 24px 0px 0px;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.menu-option{
+    padding: 0px 0px 0px 16px;
+}
+
+.logo-colmar, .logo-academy{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 32px;
+}
+
+.logo-colmar{
+    font-weight: bold;
+    color: black;
+}
+
+.logo-academy{
+    font-weight: lighter;
+    color: rgb(168, 160, 160);
 }

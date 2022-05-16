@@ -1,3 +1,4 @@
+/*Header Section*/
 
 a{
     text-decoration: none;
@@ -6,7 +7,7 @@ a{
 header{
     height: 64px;
     max-width: 100%;
-    background-color: rgb(209, 233, 248);
+    background-color: rgb(249, 250, 250);
     display: flex;
     justify-content: space-between;
 }
@@ -50,4 +51,36 @@ header ul{
 .logo-academy{
     font-weight: lighter;
     color: rgb(168, 160, 160);
+}
+
+/*banner section*/
+
+.banner-section{
+    background-color:rgb(219, 219, 220);
+    padding: 32px 24px;
+    display:flex;
+    
+}
+
+.banner-image{
+    max-width: 60%;
+    padding: 32px 24px 32px 24px;
+    margin: 24px;
+}
+
+.banner-image img{
+    width: 100%;
+    height:auto;
+}
+
+.banner-content{
+    padding: 0 1.5rem;
+    margin: auto;
+}
+.banner-content{
+    display: inline;
+}
+
+.banner-content h1{
+    display:inline;
 }

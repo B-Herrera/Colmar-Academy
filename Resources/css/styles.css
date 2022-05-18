@@ -7,7 +7,7 @@ a{
 header{
     height: 64px;
     max-width: 100%;
-    background-color: rgb(249, 250, 250);
+    background-color:white;
     display: flex;
     justify-content: space-between;
 }
@@ -55,32 +55,51 @@ header ul{
 
 /*banner section*/
 
-.banner-section{
-    background-color:rgb(219, 219, 220);
-    padding: 32px 24px;
-    display:flex;
-    
+main{
+  padding-top: 64px;
+  width: 100%;
 }
 
-.banner-image{
-    max-width: 60%;
-    padding: 32px 24px 32px 24px;
-    margin: 24px;
+.banner-top{
+  background-color:lightgrey;
+  padding: 24px;
+  display: flex;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.banner-image img{
-    width: 100%;
-    height:auto;
+.left-image{
+  padding: 32px 24px 32px 24px;
+  width: auto;
+
 }
 
-.banner-content{
-    padding: 0 1.5rem;
-    margin: auto;
-}
-.banner-content{
-    display: inline;
+.right-text{
+  padding: 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  display: flex;
+  color: rgb(70,68,68);
+  font-weight: bold;
 }
 
-.banner-content h1{
-    display:inline;
+.right-text button {
+  background-color: rgb(70, 68, 68);
+  color: white;
+  box-sizing: content-box;
+  width: 90%;
+  height: 10%;
+  top: 8px;
+  bottom: 8px;
+
 }
+
+
+
+
+
+
+
+
+

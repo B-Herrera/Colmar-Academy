@@ -101,33 +101,85 @@ main{
 
 }
 
-.second-banner{
-  display: flex;
+/*second banner*/
+
+.multi-container{
   width: 100%;
-  padding:  32px;
-  color: rgb(7, 68,68);
+  display: flex;
+  flex-wrap: nowrap;
+
+}
+
+.main-pic-box{
+  width: 60%;
+  padding: 2rem 1.5rem;
+}
+
+.main-pic-box img{
+  width: 97%;
+  margin-bottom: 2rem;
+}
+
+.main-pic-box h2, p, h5{
+  padding:24px, 32px,24px,32px;
   font-family: Arial, Helvetica, sans-serif;
+  color: rgb(70,68,68);
+}
+
+h1{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1.1;
+}
+
+/*small pictures*/
+
+.stacked-boxes{
+  display: flex;
+  flex-flow: column;
+  vertical-align: top;
+  margin-top: 1rem;
+  width: 35%;
+}
+
+.content-box img{
+  width: 35%;
+  margin:3.5%;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.content-box .side-text{
+  width: 56%;
+  display: inline-block;
+  font-family:Arial, Helvetica, sans-serif;
   
 }
 
-.p_left{
-  max-width: 60%;
+.content-box a{
+  color: #3519d5;
+  padding: 0;
+}
 
- }
+.content-box-3{
+  width: 56%;
+  display: inline-block;
+  font-family:Arial, Helvetica, sans-serif;
+}
 
- .p_left img{
-   width: 100%;
-   margin: auto;
- }
+.content-box-3 .side-text-3{
+  width: 56%;
+  display: inline-block;
+  font-family:Arial, Helvetica, sans-serif;
+}
 
- .p_left h1, h2, .p_left p {
-   padding-left: 16px;
-
- }
-
-
-
-
+.content-box-3 img{
+  width:56%;
+  margin:3.5%;
+  vertical-align: middle;
+  display: inline-block;
+}
 
 
 

@@ -153,7 +153,7 @@ h1{
 .content-box .side-text{
   width: 56%;
   display: inline-block;
-  font-family:Arial, Helvetica, sans-serif;
+  font--family:Arial, Helvetica, sans-serif;
   
 }
 
@@ -181,10 +181,47 @@ h1{
   display: inline-block;
 }
 
+/* Course Sections*/
 
+.courses {
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(70,68,68);
+  background-color: lightgrey;
+}
 
+.course-container {
+  width:90%;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: lightgrey;
+  justify-content:center;
+  margin-bottom: 2rem;
+}
 
+.course-box {
+  width: 30%;
+  height: auto;
+  margin:0 0.5rem 1rem 0.5rem;
+  background-color: white;
+}
 
+.course-box img{
+  width: 100%;
+}
+
+.course-text {
+  padding: 1rem 0 0 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 1.5rem, auto;
+}
+
+.courses h2, .thesis h2 {
+  text-align: center;
+}
 
 
 

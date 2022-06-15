@@ -110,7 +110,7 @@ main{
 
 }
 
-.main-pic-box{
+.main-pic-box {
   width: 60%;
   padding: 2rem 1.5rem;
 }
@@ -153,7 +153,7 @@ h1{
 .content-box .side-text{
   width: 56%;
   display: inline-block;
-  font--family:Arial, Helvetica, sans-serif;
+  font-family:Arial, Helvetica, sans-serif;
   
 }
 
@@ -222,6 +222,71 @@ h1{
 .courses h2, .thesis h2 {
   text-align: center;
 }
+
+
+/*Thesis Exhibit Section*/
+
+.thesis {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-bottom: 32px;
+  background-color: white;
+  color: rgb(70,68,68);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.thesis h1 {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.thesis_exhibit {
+  display: flex;
+  flex-direction: row;
+}
+
+.t_left {
+  width: 60%;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 24px;
+}
+
+.t_left video {
+  width: 100%;
+}
+
+
+ 
+
+footer{
+  background-color: white;
+  border-top: 1px solid #01161E;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: 4rem;
+  width: 100%;
+}
+
+footer h5{
+  font-family:Arial, Helvetica, sans-serif;
+  display: inline-block;
+  padding: 1rem 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+footer nav {
+  align-self: auto;
+  padding-top: 1rem;
+}
+
+
+ 
+
+
 
 
 
